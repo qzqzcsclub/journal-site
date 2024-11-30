@@ -33,7 +33,7 @@ export default function RootLayout({
 			<body className={`${robotoSlab.variable} ${geistMono.variable} antialiased`}>
 				<Nav />
 
-				<div className="mx-[430px] max-2xl:mx-[340px] max-xl:mx-[250px] max-lg:mx-[130px] max-md:mx-[40px] max-mx-[40px]">
+				<div className="mx-[430px] max-2xl:mx-[340px] max-xl:mx-[250px] max-lg:mx-[130px] max-md:mx-[40px] max-mx-[40px] pt-20">
 					{children}
 				</div>
 			</body>
