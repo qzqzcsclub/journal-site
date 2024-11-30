@@ -1,6 +1,6 @@
 const HomeSection: React.FC<{
     title: string
-    children: React.ReactNode
+    children?: React.ReactNode
 }> = (props) => {
     return (
         <section className="space-y-2">

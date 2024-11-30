@@ -26,7 +26,7 @@ export default function Home() {
 						<b>Basic Requirements:</b> All submissions should follow the <a href="https://github.com/qzqzcsclub/journal/blob/main/Fundamentals-of-Journal.md" target="_blank">the Fundamentals of Journal</a>.
 						Manuscripts must be original, unpublished work and should be submitted in LaTeX or Markdown format. Please ensure that your submission includes a title, abstract (150-300 words), and the main body of the paper.
 						The language of your paper is not specified, but you need to ensure that our reviewers and readers could read and understand it.
-						The amount of authors of a single paper should not be larger than 3.
+						The number of authors of one paper should not be exceeding 3.
 					</p>
 					<p>
 						<b>Project Structure:</b> See <a href="https://github.com/qzqzcsclub/journal/blob/main/project-structure-draft.md" target="_blank">Project Structure Draft</a>. (This draft has not been settled)
@@ -37,6 +37,10 @@ export default function Home() {
 					<p>
 						<b>To Submit:</b> Please open a Pull Request that includes your submission to our <a href="https://github.com/qzqzcsclub/journal" target="_blank">Github Repo</a>. After being reviewed, your paper will be published in the next issue. For inquiries, feel free to ask in the <a href="https://github.com/qzqzcsclub/journal/issues" target="_blank">issues</a>.
 					</p>
+				</HomeSection>
+
+				<HomeSection title="Important Dates">
+					{/** @todo */}
 				</HomeSection>
 			</div>
 		</div>
