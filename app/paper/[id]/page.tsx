@@ -1,7 +1,7 @@
 import SitePage from "@/components/page";
 
 export default async function PaperPage({ params }: {
-    params: { id: number }
+    params: Promise<{ id: number }>
 }) {
     const id = (await params).id;
     
