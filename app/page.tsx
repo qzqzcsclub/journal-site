@@ -1,10 +1,14 @@
+import Image from "next/image";
 import HomeSection from "@/components/homeSection";
 
 export default function Home() {
 	return (
 		<div className="font-[family-name:var(--font-roboto-slab)]">
 			<div className="mt-10 space-y-4">
-				<h1 className="text-8xl max-lg:text-7xl max-md:text-5xl font-bold">CSC<br />Journal</h1>
+				<div className="flex gap-6 max-sm:flex-col">
+					<Image src="/club-logo.png" alt="Club Logo" width={200} height={200}/>
+					<h1 className="inline-block text-8xl max-sm:text-7xl font-bold">CSC<br />Journal</h1>
+				</div>
 
 				<p className="text-lg font-semibold">The Official Journal of Quanzhou 7th Middle School Cyber Security Club</p>
 
