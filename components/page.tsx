@@ -1,10 +1,10 @@
-const HomeSection: React.FC<{
+const SitePage: React.FC<{
     title: string
     children?: React.ReactNode
 }> = (props) => {
     return (
-        <section className="space-y-2">
-            <h2 className="text-3xl font-bold">{props.title}</h2>
+        <section className="font-[family-name:var(--font-roboto-slab)] space-y-6">
+            <h1>{props.title}</h1>
 
             <div>
                 {props.children}
@@ -13,4 +13,4 @@ const HomeSection: React.FC<{
     );
 }
 
-export default HomeSection;
+export default SitePage;
