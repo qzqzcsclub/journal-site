@@ -1,3 +1,5 @@
+import SitePage from "@/components/page";
+
 export default async function PaperPage({ params }: {
     params: { id: number }
 }) {
@@ -5,8 +7,8 @@ export default async function PaperPage({ params }: {
     
     /** @todo */
     return (
-        <div>
+        <SitePage title="Paper Page">
             <p>{id}</p>
-        </div>
+        </SitePage>
     );
 }
